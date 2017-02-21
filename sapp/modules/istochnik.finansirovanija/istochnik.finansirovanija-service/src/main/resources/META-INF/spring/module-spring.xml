@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="tj.istochnik.finansirovanija.service.impl.istochnik_finansirovanijaLocalServiceImpl" id="tj.istochnik.finansirovanija.service.istochnik_finansirovanijaLocalService" />
+	<bean class="tj.istochnik.finansirovanija.service.impl.istochnik_finansirovanijaServiceImpl" id="tj.istochnik.finansirovanija.service.istochnik_finansirovanijaService" />
+	<bean class="tj.istochnik.finansirovanija.service.persistence.impl.istochnik_finansirovanijaPersistenceImpl" id="tj.istochnik.finansirovanija.service.persistence.istochnik_finansirovanijaPersistence" parent="basePersistence" />
+</beans>

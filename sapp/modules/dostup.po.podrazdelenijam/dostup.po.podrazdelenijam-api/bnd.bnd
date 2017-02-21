@@ -1,0 +1,9 @@
+Bundle-Name: dostup.po.podrazdelenijam-api
+Bundle-SymbolicName: tj.dostup.po.podrazdelenijam.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.dostup.po.podrazdelenijam.exception,\
+	tj.dostup.po.podrazdelenijam.model,\
+	tj.dostup.po.podrazdelenijam.service,\
+	tj.dostup.po.podrazdelenijam.service.persistence
+-includeresource: META-INF/service.xml=../dostup.po.podrazdelenijam-service/service.xml

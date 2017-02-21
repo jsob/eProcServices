@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="tj.sostojanie.izvewenij.model.sostojanie_izvewenij">
+		<field name="sostojanie" type="String" />
+		<field name="sostojanie_izvewenij_id" type="long" />
+	</model>
+</model-hints>

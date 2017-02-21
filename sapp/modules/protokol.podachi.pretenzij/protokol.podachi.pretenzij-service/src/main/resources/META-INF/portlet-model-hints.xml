@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="tj.protokol.podachi.pretenzij.model.protokol_podachi_pretenzij">
+		<field name="data_generacii" type="Date" />
+		<field name="izvewenie_id" type="long" />
+		<field name="protokol_podachi_pretenzij_id" type="long" />
+		<field name="sgeneriroval" type="long" />
+	</model>
+</model-hints>

@@ -1,0 +1,1 @@
+create sequence seq_pod_nal_sredstv;

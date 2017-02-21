@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping auto-import="false" default-lazy="false">
+	<import class="tj.protokol.podachi.pretenzij.model.protokol_podachi_pretenzij" />
+	<class name="tj.protokol.podachi.pretenzij.model.impl.protokol_podachi_pretenzijImpl" table="sapp.protokol_podachi_pretenzij">
+		<id name="protokol_podachi_pretenzij_id" type="long">
+			<generator class="sequence">
+				<param name="sequence">seq_prot_pretenzij</param>
+			</generator>
+		</id>
+		<property name="data_generacii" type="org.hibernate.type.TimestampType" />
+		<property name="izvewenie_id" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="sgeneriroval" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+	</class>
+</hibernate-mapping>

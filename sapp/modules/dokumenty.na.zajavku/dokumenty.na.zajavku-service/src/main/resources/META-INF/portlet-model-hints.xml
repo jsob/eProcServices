@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="tj.dokumenty.na.zajavku.model.dokumenty_na_zajavku">
+		<field name="dokumenty_na_zajavku_id" type="long" />
+		<field name="data_zagruzki" type="Date" />
+		<field name="imja_fajla" type="String" />
+		<field name="izvewenie_id" type="long" />
+		<field name="lot_id" type="long" />
+		<field name="nazvanie_dokumenta" type="String" />
+		<field name="postavwik_id" type="long" />
+		<field name="zagruzil" type="long" />
+	</model>
+</model-hints>

@@ -1,0 +1,9 @@
+Bundle-Name: konkursnaja.dokumentacija-api
+Bundle-SymbolicName: tj.konkursnaja.dokumentacija.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.konkursnaja.dokumentacija.exception,\
+	tj.konkursnaja.dokumentacija.model,\
+	tj.konkursnaja.dokumentacija.service,\
+	tj.konkursnaja.dokumentacija.service.persistence
+-includeresource: META-INF/service.xml=../konkursnaja.dokumentacija-service/service.xml

@@ -1,0 +1,9 @@
+Bundle-Name: rezultat.rassmotrenija.pretenzii-api
+Bundle-SymbolicName: tj.rezultat.rassmotrenija.pretenzii.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.rezultat.rassmotrenija.pretenzii.exception,\
+	tj.rezultat.rassmotrenija.pretenzii.model,\
+	tj.rezultat.rassmotrenija.pretenzii.service,\
+	tj.rezultat.rassmotrenija.pretenzii.service.persistence
+-includeresource: META-INF/service.xml=../rezultat.rassmotrenija.pretenzii-service/service.xml

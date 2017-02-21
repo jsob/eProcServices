@@ -1,0 +1,5 @@
+Bundle-Name: informacija.o.razmewenii-service
+Bundle-SymbolicName: tj.informacija.o.razmewenii.service
+Bundle-Version: 1.0.0
+Liferay-Require-SchemaVersion: 1.0.0
+Liferay-Service: true

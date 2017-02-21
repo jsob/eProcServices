@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="tj.otozvannye.zajavki.model.otozvannye_zajavki">
+		<field name="data_otzyva" type="Date" />
+		<field name="itogo_za_tovar" type="double" />
+		<field name="izvewenie_id" type="long" />
+		<field name="kolichestvo" type="int" />
+		<field name="lot_id" type="long" />
+		<field name="otozval" type="long" />
+		<field name="otozvannye_zajavki_id" type="long" />
+		<field name="postavwik_id" type="long" />
+		<field name="summa_za_edinicu_tovara" type="double" />
+		<field name="tovar_id" type="long" />
+	</model>
+</model-hints>

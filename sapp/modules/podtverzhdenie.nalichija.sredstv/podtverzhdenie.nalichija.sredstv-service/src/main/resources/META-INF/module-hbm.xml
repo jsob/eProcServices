@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping auto-import="false" default-lazy="false">
+	<import class="tj.podtverzhdenie.nalichija.sredstv.model.podtverzhdenie_nalichija_sredstv" />
+	<class name="tj.podtverzhdenie.nalichija.sredstv.model.impl.podtverzhdenie_nalichija_sredstvImpl" table="sapp.podtverzhdenie_nalichija_sredstv">
+		<id name="podtverzhdenie_nalichija_sredstv_id" type="long">
+			<generator class="sequence">
+				<param name="sequence">seq_pod_nal_sredstv</param>
+			</generator>
+		</id>
+		<property name="data_zagruzki" type="org.hibernate.type.TimestampType" />
+		<property name="imja_fajla" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="izvewenie_id" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="lot_id" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="nazvanie_dokumenta" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="zagruzil" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+	</class>
+</hibernate-mapping>

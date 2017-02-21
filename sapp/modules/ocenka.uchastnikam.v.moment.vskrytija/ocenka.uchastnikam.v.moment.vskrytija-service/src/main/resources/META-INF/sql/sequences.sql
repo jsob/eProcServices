@@ -1,0 +1,1 @@
+create sequence seq_ocenk_uch_vskr;

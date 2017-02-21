@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="tj.godovoj.plan.zakupok.model.godovoj_plan_zakupok">
+		<field name="data_sozdanija" type="Date" />
+		<field name="godovoj_plan_zakupok_id" type="long" />
+		<field name="istochnik_finansirovanija_id" type="long" />
+		<field name="naimenovanie_predmeta_zakupki" type="String" />
+		<field name="planiruemyj_metod_zakupki_id" type="long" />
+		<field name="predpolagaemaja_summa" type="double" />
+		<field name="sozdal" type="long" />
+		<field name="sroki_provedenija_zakupki" type="String" />
+		<field name="summa_finansirovanija" type="double" />
+		<field name="vbk_id" type="long" />
+	</model>
+</model-hints>

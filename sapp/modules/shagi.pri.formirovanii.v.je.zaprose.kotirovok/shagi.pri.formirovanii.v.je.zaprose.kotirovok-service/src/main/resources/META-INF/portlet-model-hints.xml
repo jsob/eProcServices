@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="tj.shagi.pri.formirovanii.v.je.zaprose.kotirovok.model.shagi_pri_formirovanii_v_je_zaprose_kotirovok">
+		<field name="informacija_o_razmewenii" type="boolean" />
+		<field name="izvewenie_id" type="long" />
+		<field name="konkursnaja_dokumentacija" type="boolean" />
+		<field name="obwaja_informacija" type="boolean" />
+		<field name="porjadok_raboty_komissii" type="boolean" />
+		<field name="shagi_pri_formirovanii_v_je_zaprose_kotirovok_id" type="long" />
+		<field name="spisok_lotov" type="boolean" />
+	</model>
+</model-hints>

@@ -1,0 +1,9 @@
+Bundle-Name: reestr.kontraktov-api
+Bundle-SymbolicName: tj.reestr.kontraktov.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.reestr.kontraktov.exception,\
+	tj.reestr.kontraktov.model,\
+	tj.reestr.kontraktov.service,\
+	tj.reestr.kontraktov.service.persistence
+-includeresource: META-INF/service.xml=../reestr.kontraktov-service/service.xml

@@ -1,0 +1,9 @@
+Bundle-Name: roli-api
+Bundle-SymbolicName: tj.roli.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.roli.exception,\
+	tj.roli.model,\
+	tj.roli.service,\
+	tj.roli.service.persistence
+-includeresource: META-INF/service.xml=../roli-service/service.xml

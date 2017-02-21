@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="tj.protokol.dlja.zakljuchenija.kontrakta.service.impl.protokol_dlja_zakljuchenija_kontraktaLocalServiceImpl" id="tj.protokol.dlja.zakljuchenija.kontrakta.service.protokol_dlja_zakljuchenija_kontraktaLocalService" />
+	<bean class="tj.protokol.dlja.zakljuchenija.kontrakta.service.impl.protokol_dlja_zakljuchenija_kontraktaServiceImpl" id="tj.protokol.dlja.zakljuchenija.kontrakta.service.protokol_dlja_zakljuchenija_kontraktaService" />
+	<bean class="tj.protokol.dlja.zakljuchenija.kontrakta.service.persistence.impl.protokol_dlja_zakljuchenija_kontraktaPersistenceImpl" id="tj.protokol.dlja.zakljuchenija.kontrakta.service.persistence.protokol_dlja_zakljuchenija_kontraktaPersistence" parent="basePersistence" />
+</beans>

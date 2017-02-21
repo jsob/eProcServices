@@ -1,0 +1,1 @@
+create sequence seq_por_rab_komiss;

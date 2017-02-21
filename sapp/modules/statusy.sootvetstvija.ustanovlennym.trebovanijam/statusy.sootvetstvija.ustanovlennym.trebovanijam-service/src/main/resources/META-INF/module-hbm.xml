@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping auto-import="false" default-lazy="false">
+	<import class="tj.statusy.sootvetstvija.ustanovlennym.trebovanijam.model.statusy_sootvetstvija_ustanovlennym_trebovanijam" />
+	<class name="tj.statusy.sootvetstvija.ustanovlennym.trebovanijam.model.impl.statusy_sootvetstvija_ustanovlennym_trebovanijamImpl" table="sapp.statusy_sootvetstvija_ustanovlennym_trebovanijam">
+		<id name="statusy_sootvetstvija_ustanovlennym_trebovanijam_id" type="long">
+			<generator class="sequence">
+				<param name="sequence">seq_status_sootv_ustan_treb</param>
+			</generator>
+		</id>
+		<property name="status" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+	</class>
+</hibernate-mapping>

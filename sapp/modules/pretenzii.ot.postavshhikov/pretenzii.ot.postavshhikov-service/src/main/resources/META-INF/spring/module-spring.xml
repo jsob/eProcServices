@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="tj.pretenzii.ot.postavshhikov.service.impl.pretenzii_ot_postavshhikovLocalServiceImpl" id="tj.pretenzii.ot.postavshhikov.service.pretenzii_ot_postavshhikovLocalService" />
+	<bean class="tj.pretenzii.ot.postavshhikov.service.impl.pretenzii_ot_postavshhikovServiceImpl" id="tj.pretenzii.ot.postavshhikov.service.pretenzii_ot_postavshhikovService" />
+	<bean class="tj.pretenzii.ot.postavshhikov.service.persistence.impl.pretenzii_ot_postavshhikovPersistenceImpl" id="tj.pretenzii.ot.postavshhikov.service.persistence.pretenzii_ot_postavshhikovPersistence" parent="basePersistence" />
+</beans>

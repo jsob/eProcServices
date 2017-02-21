@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="tj.spisok.tovarov.vremenno.service.impl.spisok_tovarov_vremennoLocalServiceImpl" id="tj.spisok.tovarov.vremenno.service.spisok_tovarov_vremennoLocalService" />
+	<bean class="tj.spisok.tovarov.vremenno.service.impl.spisok_tovarov_vremennoServiceImpl" id="tj.spisok.tovarov.vremenno.service.spisok_tovarov_vremennoService" />
+	<bean class="tj.spisok.tovarov.vremenno.service.persistence.impl.spisok_tovarov_vremennoPersistenceImpl" id="tj.spisok.tovarov.vremenno.service.persistence.spisok_tovarov_vremennoPersistence" parent="basePersistence" />
+</beans>

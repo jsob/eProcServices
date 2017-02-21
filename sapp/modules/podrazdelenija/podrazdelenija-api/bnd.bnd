@@ -1,0 +1,9 @@
+Bundle-Name: podrazdelenija-api
+Bundle-SymbolicName: tj.podrazdelenija.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.podrazdelenija.exception,\
+	tj.podrazdelenija.model,\
+	tj.podrazdelenija.service,\
+	tj.podrazdelenija.service.persistence
+-includeresource: META-INF/service.xml=../podrazdelenija-service/service.xml

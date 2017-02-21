@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="tj.tipy.organizacij.model.tipy_organizacij">
+		<field name="tipy_organizacij_id" type="long" />
+		<field name="nazvanie" type="String" />
+	</model>
+</model-hints>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.0.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_0_0.dtd">
+
+<service-builder package-path="tj.pretenzii.ot.postavshhikov">
+	<namespace>pretenzii_ot_postavshhikov</namespace>
+	<!--<entity data-source="sampleDataSource" local-service="true" name="Foo" remote-service="false" session-factory="sampleSessionFactory" table="foo" tx-manager="sampleTransactionManager uuid="true"">-->
+    <entity name="PretenziiOtPostavshhikov" local-service="true">
+        <column name="data_zagruzki" type="Date"></column>
+        <column name="imja_fajla" type="String"></column>
+        <column name="izvewenie_id" type="long"></column>
+        <column name="lot_id" type="long"></column>
+        <column name="nazvanie_dokumenta" type="String"></column>
+        <column name="postavshik_id" type="long"></column>
+        <column name="pretenzii_ot_postavshhikov_id" type="long" primary="true" id-type="sequence" id-param="seq_pret_postaw"></column>
+        <column name="zagruzil" type="long"></column>
+    </entity>
+</service-builder>

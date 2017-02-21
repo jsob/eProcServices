@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping auto-import="false" default-lazy="false">
+	<import class="tj.istorija.popolnenij.model.istorija_popolnenij" />
+	<class name="tj.istorija.popolnenij.model.impl.istorija_popolnenijImpl" table="sapp.istorija_popolnenij">
+		<id name="istorija_popolnenij_id" type="long">
+			<generator class="sequence">
+				<param name="sequence">seq_ist_popolnie</param>
+			</generator>
+		</id>
+		<property name="data_zachislenija" type="org.hibernate.type.TimestampType" />
+		<property name="nomer" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="postavwik_id" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="put" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="summa" type="com.liferay.portal.dao.orm.hibernate.DoubleType" />
+		<property name="tip" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="tranzakcija" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="zachislil" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+	</class>
+</hibernate-mapping>

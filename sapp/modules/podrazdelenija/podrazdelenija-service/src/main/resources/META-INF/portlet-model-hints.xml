@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="tj.podrazdelenija.model.podrazdelenija">
+		<field name="data_izmenenija" type="Date" />
+		<field name="data_sozdanija" type="Date" />
+		<field name="izmenil" type="long" />
+		<field name="organizacija_id" type="long" />
+		<field name="podrazdelenie" type="String" />
+		<field name="podrazdelenija_id" type="long" />
+		<field name="sozdal" type="long" />
+	</model>
+</model-hints>

@@ -1,0 +1,9 @@
+Bundle-Name: ocenka.uchastnikam.v.moment.vskrytija-api
+Bundle-SymbolicName: tj.ocenka.uchastnikam.v.moment.vskrytija.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.ocenka.uchastnikam.v.moment.vskrytija.exception,\
+	tj.ocenka.uchastnikam.v.moment.vskrytija.model,\
+	tj.ocenka.uchastnikam.v.moment.vskrytija.service,\
+	tj.ocenka.uchastnikam.v.moment.vskrytija.service.persistence
+-includeresource: META-INF/service.xml=../ocenka.uchastnikam.v.moment.vskrytija-service/service.xml

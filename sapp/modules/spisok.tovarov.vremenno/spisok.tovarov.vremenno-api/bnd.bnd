@@ -1,0 +1,9 @@
+Bundle-Name: spisok.tovarov.vremenno-api
+Bundle-SymbolicName: tj.spisok.tovarov.vremenno.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.spisok.tovarov.vremenno.exception,\
+	tj.spisok.tovarov.vremenno.model,\
+	tj.spisok.tovarov.vremenno.service,\
+	tj.spisok.tovarov.vremenno.service.persistence
+-includeresource: META-INF/service.xml=../spisok.tovarov.vremenno-service/service.xml

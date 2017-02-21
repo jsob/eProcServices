@@ -1,0 +1,9 @@
+Bundle-Name: podtverzhdenie.nalichija.sredstv-api
+Bundle-SymbolicName: tj.podtverzhdenie.nalichija.sredstv.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.podtverzhdenie.nalichija.sredstv.exception,\
+	tj.podtverzhdenie.nalichija.sredstv.model,\
+	tj.podtverzhdenie.nalichija.sredstv.service,\
+	tj.podtverzhdenie.nalichija.sredstv.service.persistence
+-includeresource: META-INF/service.xml=../podtverzhdenie.nalichija.sredstv-service/service.xml

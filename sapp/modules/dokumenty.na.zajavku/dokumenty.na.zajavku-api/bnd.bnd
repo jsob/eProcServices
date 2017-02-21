@@ -1,0 +1,9 @@
+Bundle-Name: dokumenty.na.zajavku-api
+Bundle-SymbolicName: tj.dokumenty.na.zajavku.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.dokumenty.na.zajavku.exception,\
+	tj.dokumenty.na.zajavku.model,\
+	tj.dokumenty.na.zajavku.service,\
+	tj.dokumenty.na.zajavku.service.persistence
+-includeresource: META-INF/service.xml=../dokumenty.na.zajavku-service/service.xml

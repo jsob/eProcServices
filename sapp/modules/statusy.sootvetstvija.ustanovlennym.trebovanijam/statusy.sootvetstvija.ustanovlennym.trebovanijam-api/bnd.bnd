@@ -1,0 +1,9 @@
+Bundle-Name: statusy.sootvetstvija.ustanovlennym.trebovanijam-api
+Bundle-SymbolicName: tj.statusy.sootvetstvija.ustanovlennym.trebovanijam.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.statusy.sootvetstvija.ustanovlennym.trebovanijam.exception,\
+	tj.statusy.sootvetstvija.ustanovlennym.trebovanijam.model,\
+	tj.statusy.sootvetstvija.ustanovlennym.trebovanijam.service,\
+	tj.statusy.sootvetstvija.ustanovlennym.trebovanijam.service.persistence
+-includeresource: META-INF/service.xml=../statusy.sootvetstvija.ustanovlennym.trebovanijam-service/service.xml

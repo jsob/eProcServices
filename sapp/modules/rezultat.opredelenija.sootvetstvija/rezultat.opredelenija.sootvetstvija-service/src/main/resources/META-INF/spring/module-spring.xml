@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="tj.rezultat.opredelenija.sootvetstvija.service.impl.rezultat_opredelenija_sootvetstvijaLocalServiceImpl" id="tj.rezultat.opredelenija.sootvetstvija.service.rezultat_opredelenija_sootvetstvijaLocalService" />
+	<bean class="tj.rezultat.opredelenija.sootvetstvija.service.impl.rezultat_opredelenija_sootvetstvijaServiceImpl" id="tj.rezultat.opredelenija.sootvetstvija.service.rezultat_opredelenija_sootvetstvijaService" />
+	<bean class="tj.rezultat.opredelenija.sootvetstvija.service.persistence.impl.rezultat_opredelenija_sootvetstvijaPersistenceImpl" id="tj.rezultat.opredelenija.sootvetstvija.service.persistence.rezultat_opredelenija_sootvetstvijaPersistence" parent="basePersistence" />
+</beans>

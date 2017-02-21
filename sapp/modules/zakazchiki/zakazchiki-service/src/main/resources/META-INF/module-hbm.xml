@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping auto-import="false" default-lazy="false">
+	<import class="tj.zakazchiki.model.zakazchiki" />
+	<class name="tj.zakazchiki.model.impl.zakazchikiImpl" table="sapp.zakazchiki">
+		<id name="zakazchiki_id" type="long">
+			<generator class="sequence">
+				<param name="sequence">seq_zakazchiki</param>
+			</generator>
+		</id>
+		<property name="adres" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="data_izmenenija" type="org.hibernate.type.TimestampType" />
+		<property name="data_sozdanija" type="org.hibernate.type.TimestampType" />
+		<property name="ein" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="fbk_id" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="gorod" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="inn" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="istochnik_finansirovanija_id" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="izmenil" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="je_pochta" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="kontaktnyj_telefon" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="kvalificirovannaja_organizacija" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="naimenovanie" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="oblast_id" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="otvetstvennoe_lico" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="rajon_id" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="rukovoditel" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="sozdal" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="vbk_id" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+	</class>
+</hibernate-mapping>

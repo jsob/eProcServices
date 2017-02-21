@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="tj.pretenzii.ot.postavshhikov.model.pretenzii_ot_postavshhikov">
+		<field name="data_zagruzki" type="Date" />
+		<field name="imja_fajla" type="String" />
+		<field name="izvewenie_id" type="long" />
+		<field name="lot_id" type="long" />
+		<field name="nazvanie_dokumenta" type="String" />
+		<field name="postavshik_id" type="long" />
+		<field name="pretenzii_ot_postavshhikov_id" type="long" />
+		<field name="zagruzil" type="long" />
+	</model>
+</model-hints>

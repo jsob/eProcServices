@@ -1,0 +1,9 @@
+Bundle-Name: podtverzhdenie.na.uchastie-api
+Bundle-SymbolicName: tj.podtverzhdenie.na.uchastie.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.podtverzhdenie.na.uchastie.exception,\
+	tj.podtverzhdenie.na.uchastie.model,\
+	tj.podtverzhdenie.na.uchastie.service,\
+	tj.podtverzhdenie.na.uchastie.service.persistence
+-includeresource: META-INF/service.xml=../podtverzhdenie.na.uchastie-service/service.xml

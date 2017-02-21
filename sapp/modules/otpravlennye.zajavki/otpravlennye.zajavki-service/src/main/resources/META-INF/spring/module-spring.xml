@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="tj.otpravlennye.zajavki.service.impl.otpravlennye_zajavkiLocalServiceImpl" id="tj.otpravlennye.zajavki.service.otpravlennye_zajavkiLocalService" />
+	<bean class="tj.otpravlennye.zajavki.service.impl.otpravlennye_zajavkiServiceImpl" id="tj.otpravlennye.zajavki.service.otpravlennye_zajavkiService" />
+	<bean class="tj.otpravlennye.zajavki.service.persistence.impl.otpravlennye_zajavkiPersistenceImpl" id="tj.otpravlennye.zajavki.service.persistence.otpravlennye_zajavkiPersistence" parent="basePersistence" />
+</beans>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.0.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_0_0.dtd">
+
+<service-builder package-path="tj.otozvannye.zajavki">
+	<namespace>otozvannye_zajavki</namespace>
+	<!--<entity data-source="sampleDataSource" local-service="true" name="Foo" remote-service="false" session-factory="sampleSessionFactory" table="foo" tx-manager="sampleTransactionManager uuid="true"">-->
+    <entity name="OtozvannyeZajavki" local-service="true" table="sapp.otozvannye_zajavki">
+        <column name="data_otzyva" type="Date"></column>
+        <column name="itogo_za_tovar" type="double"></column>
+        <column name="izvewenie_id" type="long"></column>
+        <column name="kolichestvo" type="int"></column>
+        <column name="lot_id" type="long"></column>
+        <column name="otozval" type="long"></column>
+        <column name="otozvannye_zajavki_id" type="long" primary="true" id-type="sequence" id-param="seq_otozv_zajavki"></column>
+        <column name="postavwik_id" type="long"></column>
+        <column name="summa_za_edinicu_tovara" type="double"></column>
+        <column name="tovar_id" type="long"></column>
+    </entity>
+</service-builder>

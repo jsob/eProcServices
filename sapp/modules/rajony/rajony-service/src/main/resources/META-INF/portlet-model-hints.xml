@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="tj.rajony.model.rajony">
+		<field name="kod_vbk" type="long" />
+		<field name="nazvanie" type="String" />
+		<field name="oblast_id" type="long" />
+		<field name="rajony_id" type="long" />
+	</model>
+</model-hints>

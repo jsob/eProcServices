@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="tj.protokol.vskrytija.service.impl.protokol_vskrytijaLocalServiceImpl" id="tj.protokol.vskrytija.service.protokol_vskrytijaLocalService" />
+	<bean class="tj.protokol.vskrytija.service.impl.protokol_vskrytijaServiceImpl" id="tj.protokol.vskrytija.service.protokol_vskrytijaService" />
+	<bean class="tj.protokol.vskrytija.service.persistence.impl.protokol_vskrytijaPersistenceImpl" id="tj.protokol.vskrytija.service.persistence.protokol_vskrytijaPersistence" parent="basePersistence" />
+</beans>

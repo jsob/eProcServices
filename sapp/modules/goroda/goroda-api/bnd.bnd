@@ -1,0 +1,9 @@
+Bundle-Name: goroda-api
+Bundle-SymbolicName: tj.goroda.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.goroda.exception,\
+	tj.goroda.model,\
+	tj.goroda.service,\
+	tj.goroda.service.persistence
+-includeresource: META-INF/service.xml=../goroda-service/service.xml

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="tj.konkursnaja.dokumentacija.service.impl.konkursnaja_dokumentacijaLocalServiceImpl" id="tj.konkursnaja.dokumentacija.service.konkursnaja_dokumentacijaLocalService" />
+	<bean class="tj.konkursnaja.dokumentacija.service.impl.konkursnaja_dokumentacijaServiceImpl" id="tj.konkursnaja.dokumentacija.service.konkursnaja_dokumentacijaService" />
+	<bean class="tj.konkursnaja.dokumentacija.service.persistence.impl.konkursnaja_dokumentacijaPersistenceImpl" id="tj.konkursnaja.dokumentacija.service.persistence.konkursnaja_dokumentacijaPersistence" parent="basePersistence" />
+</beans>

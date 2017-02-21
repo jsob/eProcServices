@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="tj.goroda.model.goroda">
+		<field name="goroda_id" type="long" />
+		<field name="nazvanie" type="String" />
+	</model>
+</model-hints>

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.0.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_0_0.dtd">
+
+<service-builder package-path="tj.goroda">
+	<namespace>goroda</namespace>
+	<!--<entity data-source="sampleDataSource" local-service="true" name="Foo" remote-service="false" session-factory="sampleSessionFactory" table="foo" tx-manager="sampleTransactionManager uuid="true"">-->
+    <entity name="Goroda" local-service="true" table="sapp.goroda">
+        <column name="goroda_id" type="long" primary="true" id-type="sequence" id-param="seq_gorod"></column>
+        <column name="nazvanie" type="String"></column>
+    </entity>
+</service-builder>

@@ -1,0 +1,5 @@
+Bundle-Name: ocenka.uchastnikam.v.moment.vskrytija-service
+Bundle-SymbolicName: tj.ocenka.uchastnikam.v.moment.vskrytija.service
+Bundle-Version: 1.0.0
+Liferay-Require-SchemaVersion: 1.0.0
+Liferay-Service: true

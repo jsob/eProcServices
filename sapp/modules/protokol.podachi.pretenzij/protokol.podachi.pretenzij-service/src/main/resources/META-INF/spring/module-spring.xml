@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="tj.protokol.podachi.pretenzij.service.impl.protokol_podachi_pretenzijLocalServiceImpl" id="tj.protokol.podachi.pretenzij.service.protokol_podachi_pretenzijLocalService" />
+	<bean class="tj.protokol.podachi.pretenzij.service.impl.protokol_podachi_pretenzijServiceImpl" id="tj.protokol.podachi.pretenzij.service.protokol_podachi_pretenzijService" />
+	<bean class="tj.protokol.podachi.pretenzij.service.persistence.impl.protokol_podachi_pretenzijPersistenceImpl" id="tj.protokol.podachi.pretenzij.service.persistence.protokol_podachi_pretenzijPersistence" parent="basePersistence" />
+</beans>

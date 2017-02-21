@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="tj.ne.uchastvujushhie.zajavki.model.ne_uchastvujushhie_zajavki">
+		<field name="data_sozdanija" type="Date" />
+		<field name="itogo_za_tovar" type="double" />
+		<field name="izvewenie_id" type="long" />
+		<field name="kolichestvo" type="long" />
+		<field name="lot_id" type="long" />
+		<field name="ne_uchastvujushhie_zajavki_id" type="long" />
+		<field name="postavwik_id" type="long" />
+		<field name="sozdal" type="long" />
+		<field name="summa_za_edinicu_tovara" type="double" />
+		<field name="tovar_id" type="long" />
+	</model>
+</model-hints>

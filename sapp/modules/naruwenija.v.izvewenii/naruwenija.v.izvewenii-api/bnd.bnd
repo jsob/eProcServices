@@ -1,0 +1,9 @@
+Bundle-Name: naruwenija.v.izvewenii-api
+Bundle-SymbolicName: naruwenija.v.izvewenii.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	naruwenija.v.izvewenii.exception,\
+	naruwenija.v.izvewenii.model,\
+	naruwenija.v.izvewenii.service,\
+	naruwenija.v.izvewenii.service.persistence
+-includeresource: META-INF/service.xml=../naruwenija.v.izvewenii-service/service.xml

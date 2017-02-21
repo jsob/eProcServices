@@ -1,0 +1,9 @@
+Bundle-Name: protokol.podachi.pretenzij-api
+Bundle-SymbolicName: tj.protokol.podachi.pretenzij.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.protokol.podachi.pretenzij.exception,\
+	tj.protokol.podachi.pretenzij.model,\
+	tj.protokol.podachi.pretenzij.service,\
+	tj.protokol.podachi.pretenzij.service.persistence
+-includeresource: META-INF/service.xml=../protokol.podachi.pretenzij-service/service.xml

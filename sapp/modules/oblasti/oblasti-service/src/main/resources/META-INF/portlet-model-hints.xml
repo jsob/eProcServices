@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="tj.oblasti.model.oblasti">
+		<field name="oblasti_id" type="long" />
+		<field name="nazvanie" type="String" />
+	</model>
+</model-hints>

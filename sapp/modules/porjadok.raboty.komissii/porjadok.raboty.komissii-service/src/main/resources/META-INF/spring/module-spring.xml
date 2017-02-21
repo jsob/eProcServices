@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="tj.porjadok.raboty.komissii.service.impl.porjadok_raboty_komissiiLocalServiceImpl" id="tj.porjadok.raboty.komissii.service.porjadok_raboty_komissiiLocalService" />
+	<bean class="tj.porjadok.raboty.komissii.service.impl.porjadok_raboty_komissiiServiceImpl" id="tj.porjadok.raboty.komissii.service.porjadok_raboty_komissiiService" />
+	<bean class="tj.porjadok.raboty.komissii.service.persistence.impl.porjadok_raboty_komissiiPersistenceImpl" id="tj.porjadok.raboty.komissii.service.persistence.porjadok_raboty_komissiiPersistence" parent="basePersistence" />
+</beans>

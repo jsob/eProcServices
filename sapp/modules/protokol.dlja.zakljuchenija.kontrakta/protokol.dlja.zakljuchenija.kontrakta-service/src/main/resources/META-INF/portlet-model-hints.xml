@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="tj.protokol.dlja.zakljuchenija.kontrakta.model.protokol_dlja_zakljuchenija_kontrakta">
+		<field name="data_generacii" type="Date" />
+		<field name="izvewenie_id" type="long" />
+		<field name="protokol_dlja_zakljuchenija_kontrakta_id" type="long" />
+		<field name="sgeneriroval" type="long" />
+	</model>
+</model-hints>

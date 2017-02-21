@@ -1,0 +1,5 @@
+Bundle-Name: pretenzii.ot.postavshhikov-service
+Bundle-SymbolicName: tj.pretenzii.ot.postavshhikov.service
+Bundle-Version: 1.0.0
+Liferay-Require-SchemaVersion: 1.0.0
+Liferay-Service: true

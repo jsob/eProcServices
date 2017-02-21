@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="tj.statusy.sootvetstvija.ustanovlennym.trebovanijam.model.statusy_sootvetstvija_ustanovlennym_trebovanijam">
+		<field name="status" type="String" />
+		<field name="statusy_sootvetstvija_ustanovlennym_trebovanijam_id" type="long" />
+	</model>
+</model-hints>

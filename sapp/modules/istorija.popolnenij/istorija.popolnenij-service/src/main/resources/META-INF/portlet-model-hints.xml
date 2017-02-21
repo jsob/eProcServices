@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="tj.istorija.popolnenij.model.istorija_popolnenij">
+		<field name="data_zachislenija" type="Date" />
+		<field name="istorija_popolnenij_id" type="long" />
+		<field name="nomer" type="String" />
+		<field name="postavwik_id" type="long" />
+		<field name="put" type="String" />
+		<field name="summa" type="double" />
+		<field name="tip" type="String" />
+		<field name="tranzakcija" type="String" />
+		<field name="zachislil" type="long" />
+	</model>
+</model-hints>

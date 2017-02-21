@@ -1,0 +1,1 @@
+create sequence seq_zajavki_ne_uchastv;

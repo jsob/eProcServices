@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="tj.dokumenty.na.zajavku.service.impl.dokumenty_na_zajavkuLocalServiceImpl" id="tj.dokumenty.na.zajavku.service.dokumenty_na_zajavkuLocalService" />
+	<bean class="tj.dokumenty.na.zajavku.service.impl.dokumenty_na_zajavkuServiceImpl" id="tj.dokumenty.na.zajavku.service.dokumenty_na_zajavkuService" />
+	<bean class="tj.dokumenty.na.zajavku.service.persistence.impl.dokumenty_na_zajavkuPersistenceImpl" id="tj.dokumenty.na.zajavku.service.persistence.dokumenty_na_zajavkuPersistence" parent="basePersistence" />
+</beans>

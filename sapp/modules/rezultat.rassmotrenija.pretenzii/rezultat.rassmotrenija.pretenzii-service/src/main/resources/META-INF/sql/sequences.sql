@@ -1,0 +1,1 @@
+create sequence seq_res_rasmotren_pretenz;

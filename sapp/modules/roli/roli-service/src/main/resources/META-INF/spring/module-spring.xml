@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="tj.roli.service.impl.roliLocalServiceImpl" id="tj.roli.service.roliLocalService" />
+	<bean class="tj.roli.service.impl.roliServiceImpl" id="tj.roli.service.roliService" />
+	<bean class="tj.roli.service.persistence.impl.roliPersistenceImpl" id="tj.roli.service.persistence.roliPersistence" parent="basePersistence" />
+</beans>

@@ -1,0 +1,1 @@
+create sequence seq_dop_info_zajavki;

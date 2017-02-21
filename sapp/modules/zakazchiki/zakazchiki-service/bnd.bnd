@@ -1,0 +1,5 @@
+Bundle-Name: zakazchiki-service
+Bundle-SymbolicName: tj.zakazchiki.service
+Bundle-Version: 1.0.0
+Liferay-Require-SchemaVersion: 1.0.0
+Liferay-Service: true

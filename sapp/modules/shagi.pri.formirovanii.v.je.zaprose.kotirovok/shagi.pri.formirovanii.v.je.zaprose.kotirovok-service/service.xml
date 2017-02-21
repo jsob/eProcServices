@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.0.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_0_0.dtd">
+
+<service-builder package-path="tj.shagi.pri.formirovanii.v.je.zaprose.kotirovok">
+	<namespace>shagi_pri_formirovanii_v_je_zaprose_kotirovok</namespace>
+	<!--<entity data-source="sampleDataSource" local-service="true" name="Foo" remote-service="false" session-factory="sampleSessionFactory" table="foo" tx-manager="sampleTransactionManager uuid="true"">-->
+    <entity name="ShagiPriFormirovaniiVJeZaproseKotirovok" local-service="true" table="sapp.shagi_pri_formirovanii_v_je_zaprose_kotirovok">
+        <column name="informacija_o_razmewenii" type="boolean"></column>
+        <column name="izvewenie_id" type="long"></column>
+        <column name="konkursnaja_dokumentacija" type="boolean"></column>
+        <column name="obwaja_informacija" type="boolean"></column>
+        <column name="porjadok_raboty_komissii" type="boolean"></column>
+        <column name="shagi_pri_formirovanii_v_je_zaprose_kotirovok_id" type="long" primary="true" id-type="sequence" id-param="seq_shag_formir_select_kotirov"></column>
+        <column name="spisok_lotov" type="boolean"></column>
+    </entity>
+</service-builder>

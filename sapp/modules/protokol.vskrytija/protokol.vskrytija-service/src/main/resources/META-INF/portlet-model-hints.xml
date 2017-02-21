@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="tj.protokol.vskrytija.model.protokol_vskrytija">
+		<field name="data_vskrytija" type="Date" />
+		<field name="izvewenie_id" type="long" />
+		<field name="protokol_vskrytija_id" type="long" />
+	</model>
+</model-hints>

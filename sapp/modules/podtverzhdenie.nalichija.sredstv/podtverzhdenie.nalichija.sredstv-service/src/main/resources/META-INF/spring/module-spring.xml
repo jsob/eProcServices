@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="tj.podtverzhdenie.nalichija.sredstv.service.impl.podtverzhdenie_nalichija_sredstvLocalServiceImpl" id="tj.podtverzhdenie.nalichija.sredstv.service.podtverzhdenie_nalichija_sredstvLocalService" />
+	<bean class="tj.podtverzhdenie.nalichija.sredstv.service.impl.podtverzhdenie_nalichija_sredstvServiceImpl" id="tj.podtverzhdenie.nalichija.sredstv.service.podtverzhdenie_nalichija_sredstvService" />
+	<bean class="tj.podtverzhdenie.nalichija.sredstv.service.persistence.impl.podtverzhdenie_nalichija_sredstvPersistenceImpl" id="tj.podtverzhdenie.nalichija.sredstv.service.persistence.podtverzhdenie_nalichija_sredstvPersistence" parent="basePersistence" />
+</beans>

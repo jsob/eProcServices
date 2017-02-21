@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.0.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_0_0.dtd">
+
+<service-builder package-path="tj.status.izvewenij">
+	<namespace>status_izvewenij</namespace>
+	<!--<entity data-source="sampleDataSource" local-service="true" name="Foo" remote-service="false" session-factory="sampleSessionFactory" table="foo" tx-manager="sampleTransactionManager uuid="true"">-->
+    <entity name="StatusIzvewenij" local-service="true" table="sapp.status_izvewenij">
+        <column name="status" type="String"></column>
+        <column name="status_izvewenij_id" type="long" primary="true" id-param="seq_status_izvesheniya" id-type="sequence"></column>
+    </entity>
+</service-builder>

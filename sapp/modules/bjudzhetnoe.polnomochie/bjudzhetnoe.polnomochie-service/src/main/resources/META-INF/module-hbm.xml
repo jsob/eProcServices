@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping auto-import="false" default-lazy="false">
+	<import class="tj.bjudzhetnoe.polnomochie.model.bjudzhetnoe_polnomochie" />
+	<class name="tj.bjudzhetnoe.polnomochie.model.impl.bjudzhetnoe_polnomochieImpl" table="sapp.bjudzhetnoe_polnomochie">
+		<id name="bjudzhetnoe_polnomochie_id" type="long">
+			<generator class="sequence">
+				<param name="sequence">seq_bjudzet</param>
+			</generator>
+		</id>
+		<property name="naimenovanie" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+	</class>
+</hibernate-mapping>

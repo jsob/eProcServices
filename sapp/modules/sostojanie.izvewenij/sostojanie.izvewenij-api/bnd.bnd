@@ -1,0 +1,9 @@
+Bundle-Name: sostojanie.izvewenij-api
+Bundle-SymbolicName: tj.sostojanie.izvewenij.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.sostojanie.izvewenij.exception,\
+	tj.sostojanie.izvewenij.model,\
+	tj.sostojanie.izvewenij.service,\
+	tj.sostojanie.izvewenij.service.persistence
+-includeresource: META-INF/service.xml=../sostojanie.izvewenij-service/service.xml

@@ -1,0 +1,9 @@
+Bundle-Name: protokol.vskrytija-api
+Bundle-SymbolicName: tj.protokol.vskrytija.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.protokol.vskrytija.exception,\
+	tj.protokol.vskrytija.model,\
+	tj.protokol.vskrytija.service,\
+	tj.protokol.vskrytija.service.persistence
+-includeresource: META-INF/service.xml=../protokol.vskrytija-service/service.xml

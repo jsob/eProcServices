@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping auto-import="false" default-lazy="false">
+	<import class="tj.ne.sostojavshiesja.zakazy.model.ne_sostojavshiesja_zakazy" />
+	<class name="tj.ne.sostojavshiesja.zakazy.model.impl.ne_sostojavshiesja_zakazyImpl" table="sapp.ne_sostojavshiesja_zakazy">
+		<id name="ne_sostojavshiesja_zakazy_id" type="long">
+			<generator class="sequence">
+				<param name="sequence">seq_zakaz_otmen</param>
+			</generator>
+		</id>
+		<property name="data_sozdanija" type="org.hibernate.type.TimestampType" />
+		<property name="izvewenie_id" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="prichina" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="sozdal" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,9 @@
+Bundle-Name: oblasti-api
+Bundle-SymbolicName: tj.oblasti.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.oblasti.exception,\
+	tj.oblasti.model,\
+	tj.oblasti.service,\
+	tj.oblasti.service.persistence
+-includeresource: META-INF/service.xml=../oblasti-service/service.xml

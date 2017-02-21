@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="tj.konkursnaja.dokumentacija.model.konkursnaja_dokumentacija">
+		<field name="data_zagruzki" type="Date" />
+		<field name="imja_fajla" type="String" />
+		<field name="izvewenie_id" type="long" />
+		<field name="konkursnaja_dokumentacija_id" type="long" />
+		<field name="lot_id" type="long" />
+		<field name="nazvanie_dokumenta" type="String" />
+		<field name="zagruzil" type="long" />
+	</model>
+</model-hints>

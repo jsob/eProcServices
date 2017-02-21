@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping auto-import="false" default-lazy="false">
+	<import class="tj.dokumenty.na.zajavku.model.dokumenty_na_zajavku" />
+	<class name="tj.dokumenty.na.zajavku.model.impl.dokumenty_na_zajavkuImpl" table="sapp.dokumenty_na_zajavku">
+		<id name="dokumenty_na_zajavku_id" type="long">
+			<generator class="sequence">
+				<param name="sequence">seq_doc_zajavk</param>
+			</generator>
+		</id>
+		<property name="data_zagruzki" type="org.hibernate.type.TimestampType" />
+		<property name="imja_fajla" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="izvewenie_id" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="lot_id" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="nazvanie_dokumenta" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="postavwik_id" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="zagruzil" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+	</class>
+</hibernate-mapping>

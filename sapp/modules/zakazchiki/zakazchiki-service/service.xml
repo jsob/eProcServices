@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.0.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_0_0.dtd">
+
+<service-builder package-path="tj.zakazchiki">
+	<namespace>zakazchiki</namespace>
+	<!--<entity data-source="sampleDataSource" local-service="true" name="Foo" remote-service="false" session-factory="sampleSessionFactory" table="foo" tx-manager="sampleTransactionManager uuid="true"">-->
+    <entity local-service="true" name="Zakazchiki" table="sapp.zakazchiki">
+        <column name="adres" type="String" primary="false"></column>
+        <column name="data_izmenenija" type="Date"></column>
+        <column name="data_sozdanija" type="Date"></column>
+        <column name="ein" type="String"></column>
+        <column name="fbk_id" type="long"></column>
+        <column name="gorod" type="String"></column>
+        <column name="inn" type="String"></column>
+        <column name="istochnik_finansirovanija_id" type="long"></column>
+        <column name="izmenil" type="long"></column>
+        <column name="je_pochta" type="String"></column>
+        <column name="kontaktnyj_telefon" type="String"></column>
+        <column name="kvalificirovannaja_organizacija" type="long"></column>
+        <column name="naimenovanie" type="String"></column>
+        <column name="oblast_id" type="long"></column>
+        <column name="otvetstvennoe_lico" type="String"></column>
+        <column name="rajon_id" type="long"></column>
+        <column name="rukovoditel" type="String"></column>
+        <column name="sozdal" type="long"></column>
+        <column name="vbk_id" type="long"></column>
+        <column name="zakazchiki_id" type="long" primary="true" id-type="sequence" id-param="seq_zakazchiki"></column>
+    </entity>
+</service-builder>

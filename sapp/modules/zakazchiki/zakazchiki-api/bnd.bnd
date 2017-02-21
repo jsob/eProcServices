@@ -1,0 +1,9 @@
+Bundle-Name: zakazchiki-api
+Bundle-SymbolicName: tj.zakazchiki.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.zakazchiki.exception,\
+	tj.zakazchiki.model,\
+	tj.zakazchiki.service,\
+	tj.zakazchiki.service.persistence
+-includeresource: META-INF/service.xml=../zakazchiki-service/service.xml

@@ -1,0 +1,1 @@
+create sequence seq_prof_polzovatel;

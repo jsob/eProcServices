@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping auto-import="false" default-lazy="false">
+	<import class="tj.shagi.pri.formirovanii.v.je.zaprose.kotirovok.model.shagi_pri_formirovanii_v_je_zaprose_kotirovok" />
+	<class name="tj.shagi.pri.formirovanii.v.je.zaprose.kotirovok.model.impl.shagi_pri_formirovanii_v_je_zaprose_kotirovokImpl" table="sapp.shagi_pri_formirovanii_v_je_zaprose_kotirovok">
+		<id name="shagi_pri_formirovanii_v_je_zaprose_kotirovok_id" type="long">
+			<generator class="sequence">
+				<param name="sequence">seq_shag_formir_select_kotirov</param>
+			</generator>
+		</id>
+		<property name="informacija_o_razmewenii" type="com.liferay.portal.dao.orm.hibernate.BooleanType" />
+		<property name="izvewenie_id" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="konkursnaja_dokumentacija" type="com.liferay.portal.dao.orm.hibernate.BooleanType" />
+		<property name="obwaja_informacija" type="com.liferay.portal.dao.orm.hibernate.BooleanType" />
+		<property name="porjadok_raboty_komissii" type="com.liferay.portal.dao.orm.hibernate.BooleanType" />
+		<property name="spisok_lotov" type="com.liferay.portal.dao.orm.hibernate.BooleanType" />
+	</class>
+</hibernate-mapping>

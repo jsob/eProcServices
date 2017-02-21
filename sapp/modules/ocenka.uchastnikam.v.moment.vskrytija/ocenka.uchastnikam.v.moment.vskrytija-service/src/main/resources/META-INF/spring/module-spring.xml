@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="tj.ocenka.uchastnikam.v.moment.vskrytija.service.impl.ocenka_uchastnikam_v_moment_vskrytijaLocalServiceImpl" id="tj.ocenka.uchastnikam.v.moment.vskrytija.service.ocenka_uchastnikam_v_moment_vskrytijaLocalService" />
+	<bean class="tj.ocenka.uchastnikam.v.moment.vskrytija.service.impl.ocenka_uchastnikam_v_moment_vskrytijaServiceImpl" id="tj.ocenka.uchastnikam.v.moment.vskrytija.service.ocenka_uchastnikam_v_moment_vskrytijaService" />
+	<bean class="tj.ocenka.uchastnikam.v.moment.vskrytija.service.persistence.impl.ocenka_uchastnikam_v_moment_vskrytijaPersistenceImpl" id="tj.ocenka.uchastnikam.v.moment.vskrytija.service.persistence.ocenka_uchastnikam_v_moment_vskrytijaPersistence" parent="basePersistence" />
+</beans>

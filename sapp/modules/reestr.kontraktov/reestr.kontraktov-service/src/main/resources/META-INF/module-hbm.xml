@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping auto-import="false" default-lazy="false">
+	<import class="tj.reestr.kontraktov.model.reestr_kontraktov" />
+	<class name="tj.reestr.kontraktov.model.impl.reestr_kontraktovImpl" table="sapp.reestr_kontraktov">
+		<id name="reestr_kontraktov_id" type="java.lang.String">
+			<generator class="sequence">
+				<param name="sequence">seq_reestr_kontraktov</param>
+			</generator>
+		</id>
+		<property name="data_kontrakta" type="org.hibernate.type.TimestampType" />
+		<property name="data_sozdanija" type="org.hibernate.type.TimestampType" />
+		<property name="izvewenie_id" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="lot_id" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="postavwik_id" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="sozdal" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+	</class>
+</hibernate-mapping>

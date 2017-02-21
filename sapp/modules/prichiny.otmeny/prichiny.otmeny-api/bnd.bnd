@@ -1,0 +1,9 @@
+Bundle-Name: prichiny.otmeny-api
+Bundle-SymbolicName: tj.prichiny.otmeny.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.prichiny.otmeny.exception,\
+	tj.prichiny.otmeny.model,\
+	tj.prichiny.otmeny.service,\
+	tj.prichiny.otmeny.service.persistence
+-includeresource: META-INF/service.xml=../prichiny.otmeny-service/service.xml

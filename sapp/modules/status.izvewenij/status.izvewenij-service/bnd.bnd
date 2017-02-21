@@ -1,0 +1,5 @@
+Bundle-Name: status.izvewenij-service
+Bundle-SymbolicName: tj.status.izvewenij.service
+Bundle-Version: 1.0.0
+Liferay-Require-SchemaVersion: 1.0.0
+Liferay-Service: true

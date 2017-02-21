@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="tj.godovoj.plan.zakupok.service.impl.godovoj_plan_zakupokLocalServiceImpl" id="tj.godovoj.plan.zakupok.service.godovoj_plan_zakupokLocalService" />
+	<bean class="tj.godovoj.plan.zakupok.service.impl.godovoj_plan_zakupokServiceImpl" id="tj.godovoj.plan.zakupok.service.godovoj_plan_zakupokService" />
+	<bean class="tj.godovoj.plan.zakupok.service.persistence.impl.godovoj_plan_zakupokPersistenceImpl" id="tj.godovoj.plan.zakupok.service.persistence.godovoj_plan_zakupokPersistence" parent="basePersistence" />
+</beans>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="tj.podtverzhdenie.na.uchastie.model.podtverzhdenie_na_uchastie">
+		<field name="data_sozdanija" type="Date" />
+		<field name="izvewenie_id" type="long" />
+		<field name="lot_id" type="long" />
+		<field name="podtverzhdenie_na_uchastie_id" type="long" />
+		<field name="postavwik_id" type="long" />
+		<field name="sozdal" type="long" />
+	</model>
+</model-hints>

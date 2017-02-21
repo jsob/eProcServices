@@ -1,0 +1,9 @@
+Bundle-Name: rezultat.opredelenija.sootvetstvija-api
+Bundle-SymbolicName: tj.rezultat.opredelenija.sootvetstvija.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.rezultat.opredelenija.sootvetstvija.exception,\
+	tj.rezultat.opredelenija.sootvetstvija.model,\
+	tj.rezultat.opredelenija.sootvetstvija.service,\
+	tj.rezultat.opredelenija.sootvetstvija.service.persistence
+-includeresource: META-INF/service.xml=../rezultat.opredelenija.sootvetstvija-service/service.xml

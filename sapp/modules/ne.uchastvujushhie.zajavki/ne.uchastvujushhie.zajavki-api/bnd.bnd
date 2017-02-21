@@ -1,0 +1,9 @@
+Bundle-Name: ne.uchastvujushhie.zajavki-api
+Bundle-SymbolicName: tj.ne.uchastvujushhie.zajavki.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.ne.uchastvujushhie.zajavki.exception,\
+	tj.ne.uchastvujushhie.zajavki.model,\
+	tj.ne.uchastvujushhie.zajavki.service,\
+	tj.ne.uchastvujushhie.zajavki.service.persistence
+-includeresource: META-INF/service.xml=../ne.uchastvujushhie.zajavki-service/service.xml

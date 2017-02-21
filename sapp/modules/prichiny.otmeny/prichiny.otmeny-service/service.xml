@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.0.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_0_0.dtd">
+
+<service-builder package-path="tj.prichiny.otmeny">
+	<namespace>prichiny_otmeny</namespace>
+	<!--<entity data-source="sampleDataSource" local-service="true" name="Foo" remote-service="false" session-factory="sampleSessionFactory" table="foo" tx-manager="sampleTransactionManager uuid="true"">-->
+    <entity name="PrichinyOtmeny" local-service="true" table="sapp.prichiny_otmeny">
+        <column name="data_izmenenija" type="Date"></column>
+        <column name="data_sozdanija" type="Date"></column>
+        <column name="izmenil" type="long"></column>
+        <column name="izvewenie_id" type="long"></column>
+        <column name="prichina" type="String"></column>
+        <column name="prichiny_otmeny_id" primary="true" type="long" id-type="sequence" id-param="seq_prichina_otmeny"></column>
+        <column name="sozdal" type="long"></column>
+    </entity>
+</service-builder>

@@ -1,0 +1,5 @@
+Bundle-Name: sostojanie.izvewenij-service
+Bundle-SymbolicName: tj.sostojanie.izvewenij.service
+Bundle-Version: 1.0.0
+Liferay-Require-SchemaVersion: 1.0.0
+Liferay-Service: true

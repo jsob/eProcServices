@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.0.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_0_0.dtd">
+
+<service-builder package-path="tj.dokumenty.na.zajavku">
+	<namespace>dokumenty_na_zajavku</namespace>
+	<!--<entity data-source="sampleDataSource" local-service="true" name="Foo" remote-service="false" session-factory="sampleSessionFactory" table="foo" tx-manager="sampleTransactionManager uuid="true"">-->
+    <entity name="DokumentyNaZajavku" local-service="true" table="sapp.dokumenty_na_zajavku">
+        <column name="dokumenty_na_zajavku_id" type="long" primary="true" id-type="sequence" id-param="seq_doc_zajavk"></column>
+        <column name="data_zagruzki" type="Date" primary="false"></column>
+        <column name="imja_fajla" type="String"></column>
+        <column name="izvewenie_id" type="long"></column>
+        <column name="lot_id" type="long"></column>
+        <column name="nazvanie_dokumenta" type="String"></column>
+        <column name="postavwik_id" type="long"></column>
+        <column name="zagruzil" type="long"></column>
+    </entity>
+</service-builder>

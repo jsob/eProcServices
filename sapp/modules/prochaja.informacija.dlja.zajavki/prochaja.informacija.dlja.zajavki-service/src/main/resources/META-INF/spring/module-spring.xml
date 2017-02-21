@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="tj.prochaja.informacija.dlja.zajavki.service.impl.prochaja_informacija_dlja_zajavkiLocalServiceImpl" id="tj.prochaja.informacija.dlja.zajavki.service.prochaja_informacija_dlja_zajavkiLocalService" />
+	<bean class="tj.prochaja.informacija.dlja.zajavki.service.impl.prochaja_informacija_dlja_zajavkiServiceImpl" id="tj.prochaja.informacija.dlja.zajavki.service.prochaja_informacija_dlja_zajavkiService" />
+	<bean class="tj.prochaja.informacija.dlja.zajavki.service.persistence.impl.prochaja_informacija_dlja_zajavkiPersistenceImpl" id="tj.prochaja.informacija.dlja.zajavki.service.persistence.prochaja_informacija_dlja_zajavkiPersistence" parent="basePersistence" />
+</beans>

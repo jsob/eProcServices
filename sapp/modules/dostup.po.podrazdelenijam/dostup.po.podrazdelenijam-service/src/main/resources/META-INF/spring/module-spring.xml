@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="tj.dostup.po.podrazdelenijam.service.impl.dostup_po_podrazdelenijamLocalServiceImpl" id="tj.dostup.po.podrazdelenijam.service.dostup_po_podrazdelenijamLocalService" />
+	<bean class="tj.dostup.po.podrazdelenijam.service.impl.dostup_po_podrazdelenijamServiceImpl" id="tj.dostup.po.podrazdelenijam.service.dostup_po_podrazdelenijamService" />
+	<bean class="tj.dostup.po.podrazdelenijam.service.persistence.impl.dostup_po_podrazdelenijamPersistenceImpl" id="tj.dostup.po.podrazdelenijam.service.persistence.dostup_po_podrazdelenijamPersistence" parent="basePersistence" />
+</beans>

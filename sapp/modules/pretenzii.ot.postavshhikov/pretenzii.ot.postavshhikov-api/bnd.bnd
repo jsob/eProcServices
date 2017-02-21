@@ -1,0 +1,9 @@
+Bundle-Name: pretenzii.ot.postavshhikov-api
+Bundle-SymbolicName: tj.pretenzii.ot.postavshhikov.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.pretenzii.ot.postavshhikov.exception,\
+	tj.pretenzii.ot.postavshhikov.model,\
+	tj.pretenzii.ot.postavshhikov.service,\
+	tj.pretenzii.ot.postavshhikov.service.persistence
+-includeresource: META-INF/service.xml=../pretenzii.ot.postavshhikov-service/service.xml

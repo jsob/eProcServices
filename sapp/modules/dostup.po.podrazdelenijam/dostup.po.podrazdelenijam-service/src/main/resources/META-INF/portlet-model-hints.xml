@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="tj.dostup.po.podrazdelenijam.model.dostup_po_podrazdelenijam">
+		<field name="data_izmenenija" type="Date" />
+		<field name="data_sozdanija" type="Date" />
+		<field name="dostup_po_podrazdelenijam_id" type="long" />
+		<field name="izmenil" type="long" />
+		<field name="podrazdelenija_id" type="long" />
+		<field name="polzovateli_id" type="long" />
+		<field name="sozdal" type="long" />
+	</model>
+</model-hints>

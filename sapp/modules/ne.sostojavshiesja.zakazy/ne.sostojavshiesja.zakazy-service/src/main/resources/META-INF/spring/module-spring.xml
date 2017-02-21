@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="tj.ne.sostojavshiesja.zakazy.service.impl.ne_sostojavshiesja_zakazyLocalServiceImpl" id="tj.ne.sostojavshiesja.zakazy.service.ne_sostojavshiesja_zakazyLocalService" />
+	<bean class="tj.ne.sostojavshiesja.zakazy.service.impl.ne_sostojavshiesja_zakazyServiceImpl" id="tj.ne.sostojavshiesja.zakazy.service.ne_sostojavshiesja_zakazyService" />
+	<bean class="tj.ne.sostojavshiesja.zakazy.service.persistence.impl.ne_sostojavshiesja_zakazyPersistenceImpl" id="tj.ne.sostojavshiesja.zakazy.service.persistence.ne_sostojavshiesja_zakazyPersistence" parent="basePersistence" />
+</beans>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="tj.obwaja.informacija.service.impl.obwaja_informacijaLocalServiceImpl" id="tj.obwaja.informacija.service.obwaja_informacijaLocalService" />
+	<bean class="tj.obwaja.informacija.service.impl.obwaja_informacijaServiceImpl" id="tj.obwaja.informacija.service.obwaja_informacijaService" />
+	<bean class="tj.obwaja.informacija.service.persistence.impl.obwaja_informacijaPersistenceImpl" id="tj.obwaja.informacija.service.persistence.obwaja_informacijaPersistence" parent="basePersistence" />
+</beans>

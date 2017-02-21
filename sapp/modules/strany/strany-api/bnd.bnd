@@ -1,0 +1,9 @@
+Bundle-Name: strany-api
+Bundle-SymbolicName: tj.strany.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.strany.exception,\
+	tj.strany.model,\
+	tj.strany.service,\
+	tj.strany.service.persistence
+-includeresource: META-INF/service.xml=../strany-service/service.xml

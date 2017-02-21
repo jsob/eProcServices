@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="tj.roli.model.roli">
+		<field name="rol" type="String" />
+		<field name="roli_id" type="long" />
+	</model>
+</model-hints>

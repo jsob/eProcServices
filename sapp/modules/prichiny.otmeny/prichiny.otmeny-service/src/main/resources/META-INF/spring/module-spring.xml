@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="tj.prichiny.otmeny.service.impl.prichiny_otmenyLocalServiceImpl" id="tj.prichiny.otmeny.service.prichiny_otmenyLocalService" />
+	<bean class="tj.prichiny.otmeny.service.impl.prichiny_otmenyServiceImpl" id="tj.prichiny.otmeny.service.prichiny_otmenyService" />
+	<bean class="tj.prichiny.otmeny.service.persistence.impl.prichiny_otmenyPersistenceImpl" id="tj.prichiny.otmeny.service.persistence.prichiny_otmenyPersistence" parent="basePersistence" />
+</beans>

@@ -1,0 +1,9 @@
+Bundle-Name: informacija.o.razmewenii-api
+Bundle-SymbolicName: tj.informacija.o.razmewenii.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.informacija.o.razmewenii.exception,\
+	tj.informacija.o.razmewenii.model,\
+	tj.informacija.o.razmewenii.service,\
+	tj.informacija.o.razmewenii.service.persistence
+-includeresource: META-INF/service.xml=../informacija.o.razmewenii-service/service.xml

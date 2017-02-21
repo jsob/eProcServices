@@ -1,0 +1,9 @@
+Bundle-Name: rajony-api
+Bundle-SymbolicName: tj.rajony.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.rajony.exception,\
+	tj.rajony.model,\
+	tj.rajony.service,\
+	tj.rajony.service.persistence
+-includeresource: META-INF/service.xml=../rajony-service/service.xml

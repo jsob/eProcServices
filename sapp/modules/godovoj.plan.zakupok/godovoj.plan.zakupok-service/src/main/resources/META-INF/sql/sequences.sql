@@ -1,0 +1,1 @@
+create sequence seq_god_pl_zak;

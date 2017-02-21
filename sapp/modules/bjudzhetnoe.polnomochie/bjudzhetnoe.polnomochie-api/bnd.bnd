@@ -1,0 +1,9 @@
+Bundle-Name: bjudzhetnoe.polnomochie-api
+Bundle-SymbolicName: tj.bjudzhetnoe.polnomochie.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.bjudzhetnoe.polnomochie.exception,\
+	tj.bjudzhetnoe.polnomochie.model,\
+	tj.bjudzhetnoe.polnomochie.service,\
+	tj.bjudzhetnoe.polnomochie.service.persistence
+-includeresource: META-INF/service.xml=../bjudzhetnoe.polnomochie-service/service.xml

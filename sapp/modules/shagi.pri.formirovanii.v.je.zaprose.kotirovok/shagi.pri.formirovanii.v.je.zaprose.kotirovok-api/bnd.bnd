@@ -1,0 +1,9 @@
+Bundle-Name: shagi.pri.formirovanii.v.je.zaprose.kotirovok-api
+Bundle-SymbolicName: tj.shagi.pri.formirovanii.v.je.zaprose.kotirovok.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.shagi.pri.formirovanii.v.je.zaprose.kotirovok.exception,\
+	tj.shagi.pri.formirovanii.v.je.zaprose.kotirovok.model,\
+	tj.shagi.pri.formirovanii.v.je.zaprose.kotirovok.service,\
+	tj.shagi.pri.formirovanii.v.je.zaprose.kotirovok.service.persistence
+-includeresource: META-INF/service.xml=../shagi.pri.formirovanii.v.je.zaprose.kotirovok-service/service.xml

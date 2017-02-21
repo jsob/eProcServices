@@ -1,0 +1,22 @@
+create table sapp.zakazchiki (
+	adres VARCHAR(75) null,
+	data_izmenenija DATE null,
+	data_sozdanija DATE null,
+	ein VARCHAR(75) null,
+	fbk_id LONG,
+	gorod VARCHAR(75) null,
+	inn VARCHAR(75) null,
+	istochnik_finansirovanija_id LONG,
+	izmenil LONG,
+	je_pochta VARCHAR(75) null,
+	kontaktnyj_telefon VARCHAR(75) null,
+	kvalificirovannaja_organizacija LONG,
+	naimenovanie VARCHAR(75) null,
+	oblast_id LONG,
+	otvetstvennoe_lico VARCHAR(75) null,
+	rajon_id LONG,
+	rukovoditel VARCHAR(75) null,
+	sozdal LONG,
+	vbk_id LONG,
+	zakazchiki_id LONG not null primary key
+);

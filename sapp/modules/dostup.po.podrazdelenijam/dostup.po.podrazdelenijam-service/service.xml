@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.0.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_0_0.dtd">
+
+<service-builder package-path="tj.dostup.po.podrazdelenijam">
+	<namespace>dostup_po_podrazdelenijam</namespace>
+	<!--<entity data-source="sampleDataSource" local-service="true" name="Foo" remote-service="false" session-factory="sampleSessionFactory" table="foo" tx-manager="sampleTransactionManager uuid="true"">-->
+    <entity name="DostupPoPodrazdelenijam" local-service="true" table="sapp.dostup_po_podrazdelenijam">
+        <column name="data_izmenenija" type="Date"></column>
+        <column name="data_sozdanija" type="Date"></column>
+        <column name="dostup_po_podrazdelenijam_id" type="long" primary="true" id-type="sequence" id-param="seq_dostup_pod"></column>
+        <column name="izmenil" type="long"></column>
+        <column name="podrazdelenija_id" type="long"></column>
+        <column name="polzovateli_id" type="long"></column>
+        <column name="sozdal" type="long"></column>
+    </entity>
+</service-builder>

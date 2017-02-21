@@ -1,0 +1,9 @@
+Bundle-Name: godovoj.plan.zakupok-api
+Bundle-SymbolicName: tj.godovoj.plan.zakupok.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.godovoj.plan.zakupok.exception,\
+	tj.godovoj.plan.zakupok.model,\
+	tj.godovoj.plan.zakupok.service,\
+	tj.godovoj.plan.zakupok.service.persistence
+-includeresource: META-INF/service.xml=../godovoj.plan.zakupok-service/service.xml

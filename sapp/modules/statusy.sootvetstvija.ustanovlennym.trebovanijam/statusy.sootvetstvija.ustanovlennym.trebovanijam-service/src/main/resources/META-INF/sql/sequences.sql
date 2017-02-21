@@ -1,0 +1,1 @@
+create sequence seq_status_sootv_ustan_treb;

@@ -1,0 +1,5 @@
+Bundle-Name: shagi.pri.formirovanii.v.je.zaprose.kotirovok-service
+Bundle-SymbolicName: tj.shagi.pri.formirovanii.v.je.zaprose.kotirovok.service
+Bundle-Version: 1.0.0
+Liferay-Require-SchemaVersion: 1.0.0
+Liferay-Service: true

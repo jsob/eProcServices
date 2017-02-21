@@ -1,0 +1,9 @@
+Bundle-Name: istorija.popolnenij-api
+Bundle-SymbolicName: tj.istorija.popolnenij.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.istorija.popolnenij.exception,\
+	tj.istorija.popolnenij.model,\
+	tj.istorija.popolnenij.service,\
+	tj.istorija.popolnenij.service.persistence
+-includeresource: META-INF/service.xml=../istorija.popolnenij-service/service.xml

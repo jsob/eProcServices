@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping auto-import="false" default-lazy="false">
+	<import class="tj.protokol.vskrytija.model.protokol_vskrytija" />
+	<class name="tj.protokol.vskrytija.model.impl.protokol_vskrytijaImpl" table="sapp.protokol_vskrytija">
+		<id name="protokol_vskrytija_id" type="long">
+			<generator class="sequence">
+				<param name="sequence">seq_prot_vskrytiya</param>
+			</generator>
+		</id>
+		<property name="data_vskrytija" type="org.hibernate.type.TimestampType" />
+		<property name="izvewenie_id" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="naruwenija.v.izvewenii.model.naruwenija_v_izvewenii">
+		<field name="data_sozdanija" type="Date" />
+		<field name="izvewenie_id" type="long" />
+		<field name="naruwenie" type="String" />
+		<field name="naruwenija_v_izvewenii_id" type="long" />
+		<field name="nomer_razdela" type="long" />
+		<field name="sozdal" type="long" />
+	</model>
+</model-hints>

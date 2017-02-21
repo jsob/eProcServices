@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="tj.reestr.kontraktov.model.reestr_kontraktov">
+		<field name="data_kontrakta" type="Date" />
+		<field name="data_sozdanija" type="Date" />
+		<field name="izvewenie_id" type="long" />
+		<field name="lot_id" type="long" />
+		<field name="postavwik_id" type="long" />
+		<field name="reestr_kontraktov_id" type="String" />
+		<field name="sozdal" type="long" />
+	</model>
+</model-hints>

@@ -1,0 +1,9 @@
+Bundle-Name: revision-api
+Bundle-SymbolicName: tj.revision.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.revision.exception,\
+	tj.revision.model,\
+	tj.revision.service,\
+	tj.revision.service.persistence
+-includeresource: META-INF/service.xml=../revision-service/service.xml

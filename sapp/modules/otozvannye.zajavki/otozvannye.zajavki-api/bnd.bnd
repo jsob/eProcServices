@@ -1,0 +1,9 @@
+Bundle-Name: otozvannye.zajavki-api
+Bundle-SymbolicName: tj.otozvannye.zajavki.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.otozvannye.zajavki.exception,\
+	tj.otozvannye.zajavki.model,\
+	tj.otozvannye.zajavki.service,\
+	tj.otozvannye.zajavki.service.persistence
+-includeresource: META-INF/service.xml=../otozvannye.zajavki-service/service.xml

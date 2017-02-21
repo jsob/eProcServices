@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping auto-import="false" default-lazy="false">
+	<import class="tj.oblasti.model.oblasti" />
+	<class name="tj.oblasti.model.impl.oblastiImpl" table="sapp.oblasti">
+		<id name="oblasti_id" type="long">
+			<generator class="sequence">
+				<param name="sequence">seq_oblast</param>
+			</generator>
+		</id>
+		<property name="nazvanie" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+	</class>
+</hibernate-mapping>

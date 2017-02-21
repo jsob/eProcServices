@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="naruwenija.v.izvewenii.service.impl.naruwenija_v_izveweniiLocalServiceImpl" id="naruwenija.v.izvewenii.service.naruwenija_v_izveweniiLocalService" />
+	<bean class="naruwenija.v.izvewenii.service.impl.naruwenija_v_izveweniiServiceImpl" id="naruwenija.v.izvewenii.service.naruwenija_v_izveweniiService" />
+	<bean class="naruwenija.v.izvewenii.service.persistence.impl.naruwenija_v_izveweniiPersistenceImpl" id="naruwenija.v.izvewenii.service.persistence.naruwenija_v_izveweniiPersistence" parent="basePersistence" />
+</beans>

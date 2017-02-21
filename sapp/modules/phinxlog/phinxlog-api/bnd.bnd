@@ -1,0 +1,9 @@
+Bundle-Name: phinxlog-api
+Bundle-SymbolicName: tj.phinxlog.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.phinxlog.exception,\
+	tj.phinxlog.model,\
+	tj.phinxlog.service,\
+	tj.phinxlog.service.persistence
+-includeresource: META-INF/service.xml=../phinxlog-service/service.xml

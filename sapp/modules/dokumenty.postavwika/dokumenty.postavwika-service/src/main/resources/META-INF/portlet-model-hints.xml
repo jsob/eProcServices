@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="tj.dokumenty.postavwika.model.dokumenty_postavwika">
+		<field name="data_zagruzki" type="Date" />
+		<field name="dokumenty_postavwika_id" type="long" />
+		<field name="imja_fajla" type="String" />
+		<field name="nazvanie_dokumenta" type="String" />
+		<field name="postavwik_id" type="long" />
+		<field name="tip_dokumenta" type="int" />
+		<field name="zagruzil" type="long" />
+	</model>
+</model-hints>

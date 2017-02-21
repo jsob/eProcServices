@@ -1,0 +1,9 @@
+Bundle-Name: protokol.dlja.zakljuchenija.kontrakta-api
+Bundle-SymbolicName: tj.protokol.dlja.zakljuchenija.kontrakta.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.protokol.dlja.zakljuchenija.kontrakta.exception,\
+	tj.protokol.dlja.zakljuchenija.kontrakta.model,\
+	tj.protokol.dlja.zakljuchenija.kontrakta.service,\
+	tj.protokol.dlja.zakljuchenija.kontrakta.service.persistence
+-includeresource: META-INF/service.xml=../protokol.dlja.zakljuchenija.kontrakta-service/service.xml

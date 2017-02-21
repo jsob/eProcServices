@@ -1,0 +1,9 @@
+Bundle-Name: otpravlennye.zajavki-api
+Bundle-SymbolicName: tj.otpravlennye.zajavki.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.otpravlennye.zajavki.exception,\
+	tj.otpravlennye.zajavki.model,\
+	tj.otpravlennye.zajavki.service,\
+	tj.otpravlennye.zajavki.service.persistence
+-includeresource: META-INF/service.xml=../otpravlennye.zajavki-service/service.xml

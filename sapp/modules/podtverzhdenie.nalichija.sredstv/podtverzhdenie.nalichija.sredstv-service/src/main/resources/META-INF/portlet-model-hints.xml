@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="tj.podtverzhdenie.nalichija.sredstv.model.podtverzhdenie_nalichija_sredstv">
+		<field name="data_zagruzki" type="Date" />
+		<field name="imja_fajla" type="String" />
+		<field name="izvewenie_id" type="long" />
+		<field name="lot_id" type="long" />
+		<field name="nazvanie_dokumenta" type="String" />
+		<field name="podtverzhdenie_nalichija_sredstv_id" type="long" />
+		<field name="zagruzil" type="long" />
+	</model>
+</model-hints>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="tj.otpravlennye.zajavki.model.otpravlennye_zajavki">
+		<field name="data_izmenenija" type="Date" />
+		<field name="data_otpravki" type="Date" />
+		<field name="izmenil" type="long" />
+		<field name="izvewenie_id" type="long" />
+		<field name="kolichestvo_otpravok" type="long" />
+		<field name="lot_id" type="long" />
+		<field name="otpravil" type="long" />
+		<field name="otpravlennye_zajavki_id" type="long" />
+		<field name="postavwik_id" type="long" />
+		<field name="status" type="long" />
+	</model>
+</model-hints>

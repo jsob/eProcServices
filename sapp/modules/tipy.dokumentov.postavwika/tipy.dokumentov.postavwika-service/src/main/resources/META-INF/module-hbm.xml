@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping auto-import="false" default-lazy="false">
+	<import class="tj.tipy.dokumentov.postavwika.model.tipy_dokumentov_postavwika" />
+	<class name="tj.tipy.dokumentov.postavwika.model.impl.tipy_dokumentov_postavwikaImpl" table="sapp.tipy_dokumentov_postavwika">
+		<id name="tipy_dokumentov_postavwika_id" type="long">
+			<generator class="sequence">
+				<param name="sequence">seq_type_doc_postavki</param>
+			</generator>
+		</id>
+		<property name="tip" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+	</class>
+</hibernate-mapping>

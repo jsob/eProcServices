@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.0.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_0_0.dtd">
+
+<service-builder package-path="tj.ocenka.uchastnikam.v.moment.vskrytija">
+	<namespace>ocenka_uchastnikam_v_moment_vskrytija</namespace>
+	<!--<entity data-source="sampleDataSource" local-service="true" name="Foo" remote-service="false" session-factory="sampleSessionFactory" table="foo" tx-manager="sampleTransactionManager uuid="true"">-->
+    <entity name="OcenkaUchastnikamVmomentVskrytija" local-service="true" table="sapp.ocenka_uchastnikam_v_moment_vskrytija">
+        <column name="data_otkaza" type="Date"></column>
+        <column name="data_vskrytija" type="Date"></column>
+        <column name="izvewenie_id" type="long"></column>
+        <column name="lot_id" type="long"></column>
+        <column name="ocenka_uchastnikam_v_moment_vskrytija_id" type="long" primary="true" id-type="sequence" id-param="seq_ocenk_uch_vskr"></column>
+        <column name="otkazal" type="long"></column>
+        <column name="postavwik_id" type="long"></column>
+        <column name="prichina_otkaza" type="String"></column>
+        <column name="protokol_vskrytija_id" type="long"></column>
+        <column name="status" type="long"></column>
+    </entity>
+</service-builder>

@@ -1,0 +1,9 @@
+Bundle-Name: ne.sostojavshiesja.zakazy-api
+Bundle-SymbolicName: tj.ne.sostojavshiesja.zakazy.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	tj.ne.sostojavshiesja.zakazy.exception,\
+	tj.ne.sostojavshiesja.zakazy.model,\
+	tj.ne.sostojavshiesja.zakazy.service,\
+	tj.ne.sostojavshiesja.zakazy.service.persistence
+-includeresource: META-INF/service.xml=../ne.sostojavshiesja.zakazy-service/service.xml
